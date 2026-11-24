@@ -249,6 +249,15 @@ Clamping values
 .. autofunction:: petl.transform.clamp.clampvalues
 
 
+.. module:: petl.transform.binning
+.. _transform_binning:
+
+Binning values
+--------------
+
+.. autofunction:: petl.transform.binning.binvalues
+
+
 .. module:: petl.transform.validation
 .. _transform_validation:
 

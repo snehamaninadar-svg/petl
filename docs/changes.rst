@@ -4,6 +4,10 @@ Changes
 Version 1.8.0
 -------------
 
+* Add ``binvalues()`` to assign the numeric values of a field to labelled
+  bins defined by a list of edges, replacing the field or adding a new one.
+  Values outside the edges or that are not numbers become ``missing``.
+
 * Add ``petl.config.temp_dir`` to set the directory for on-disk sorts and
   generator-backed ``fromdicts()`` caches. :issue:`389`.
 
